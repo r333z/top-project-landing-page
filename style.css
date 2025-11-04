@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/* FIRST SECTION */
+
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
@@ -91,4 +93,38 @@ a {
     text-decoration: none;
         font-size: 18px;
 
+}
+
+/* SECOND SECTION */
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+}
+
+.container-subtext-group {
+    display: flex;
+    flex-wrap: no-wrap;
+
+}
+
+.information-header {
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.information-container {
+    box-sizing: border-box;
+    height: 175px;
+    width: 175px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+}
+
+.subtext {
+    display: flex;
+    align-items: flex-end;
 }
