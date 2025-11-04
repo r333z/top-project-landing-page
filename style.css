@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
-
 body {
     margin: 0;
     padding: 0;
@@ -15,6 +13,7 @@ body {
     display: flex;
     justify-content: center;
     width: auto;
+    height: 460px;
 }
 
 .hero-main-text {
@@ -33,7 +32,7 @@ body {
     width: 420px;
     font-size: 18px;
     color: #E5E7EB;
-    margin: 0;
+    margin: 5px 0 10px 0;
 }
 
 .sign-up-1 {
@@ -41,11 +40,37 @@ body {
     color: white;
 }
 
+.header-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.under-logo-left {
+    margin-top: 3em;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image-container {
+    margin: 4em 0 0 3em;
+}
+
 .placeholder-for-image {
+    color: #E5E7EB;
+    background: #a1a0a0dc;
     box-sizing: border-box;
-    width: 300px;
-    height: 150px;
+    width: 525px;
+    height: 225px;
     border: 2px grey solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -56,6 +81,8 @@ button {
 }
 
 li {
+    display: flex;
+    gap: 1.5em;
     list-style: none;
 }
 
