@@ -1,0 +1,67 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-container {
+    background: #1F2937;
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.hero-main-text {
+    width: 300px;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.hero-secondary-text {
+    display: flex;
+    flex-wrap: wrap;
+    width: 420px;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.sign-up-1 {
+    background: #3882F6;
+    color: white;
+}
+
+.placeholder-for-image {
+    box-sizing: border-box;
+    width: 300px;
+    height: 150px;
+    border: 2px grey solid;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+        color: #E5E7EB;
+    text-decoration: none;
+        font-size: 18px;
+
+}
