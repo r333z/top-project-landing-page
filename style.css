@@ -15,7 +15,7 @@ body {
     display: flex;
     justify-content: center;
     width: auto;
-    height: 460px;
+    height: 560px;
 }
 
 .hero-main-text {
@@ -105,7 +105,11 @@ a {
 
 .container-subtext-group {
     display: flex;
+    gap: 3em;
+    justify-content: center;
     flex-wrap: no-wrap;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -125,6 +129,101 @@ a {
 }
 
 .subtext {
+    font-size: 18px;
+    width: 175px;
+    color: #1F2937;
     display: flex;
-    align-items: flex-end;
+    justify-content: center;
+    margin-top: -0.5em;
+}
+
+/* THIRD SECTION */
+
+.third-container {
+    background: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 400px;
+}
+
+.thor-quote {
+    display: flex;
+    width: 810px;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin: 5px;
+}
+
+.quote-author {
+    color: #1F2937;
+    display: flex;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 4in;
+}
+
+/* FOURTH SECTION */
+
+.fourth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 320px;
+}
+
+.blue-container {
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+    width: 10in;
+    height: 1.5in;
+    margin: 4em;
+    border-radius: 10px;
+}
+
+.cta-itstime {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 40px 20px -18px 0;
+}
+
+.cta-subtext {
+    font-size: 18px;
+}
+
+.cta-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1in;
+}
+
+.sign-up-2 {
+    color: #F9FAF8;
+    background: #3882F6;
+    border: 2px #F9FAF8 solid;
+}
+
+/* FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #F9FAF8;
+    background: #1F2937;
+    width: auto;
+    height: 100px;
 }
